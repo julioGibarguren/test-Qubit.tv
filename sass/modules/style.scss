@@ -1,0 +1,88 @@
+@import "compass/reset";
+
+$green: #17c2a4;
+$dark-green: #15ab91;
+
+body,html {
+	font-family: 'Titillium Web', sans-serif;
+	background: $green;
+	margin:0; 
+	padding:0; 
+	height:100%;  
+	color: white;
+}
+main {  
+	height: 100%;
+	display: table;
+	position: relative; 
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
+	header {
+		width: 100%;
+
+		h1 {
+			display: block;
+			text-align: center;
+			font-size: 40px;
+			font-weight: 700; 
+			letter-spacing: 5px;
+			width: 100%;
+
+			&:after {
+				content: "";
+				display: block;
+				background: $dark-green;
+				width: 90px;
+				height: 4px;
+				margin: 20px auto;
+			}
+		}
+		p {
+			display: block;
+			text-align: center;
+			font-size: 18px; 
+			color: white;
+			max-width: 600px;
+			margin: auto;
+			line-height: 26px;
+			float: none !important;
+		}
+	}
+	section { 
+		margin-top: 60px;
+
+		div {
+			margin: 60px 0;
+			header {
+				height: 130px;
+				img {
+					display: block;
+					margin: 0 auto;
+					max-width: 134px;
+					max-height: 130px;
+					width: auto;
+				}
+			}
+			div {
+				h2 {
+					font-weight: 700;
+					font-size: 24px;
+					display: block;
+					width: 100%;
+					margin: 60px 0 30px 0;
+					text-align: center;
+				}
+				p {
+					display: block;
+					text-align: center;
+					font-size: 16px;
+					line-height: 24px;
+					max-width: 200px;
+					float: none;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}

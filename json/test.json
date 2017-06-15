@@ -1,0 +1,26 @@
+{"landing": {
+    "title": "Services we provide",
+    "text": "We are working with both individuals and businesses from all over the globe to create awesome websites and applications.",
+    "items": {
+        "item1": {
+            "image": "images/flag.png",
+    		"title": "Branding",
+    		"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh."
+        },
+        "item2": {
+            "image": "images/pencil.png",
+    		"title": "Design",
+    		"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
+        },
+        "item3": {
+            "image": "images/gears.png",
+    		"title": "Development",
+    		"text": "At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium."
+        },
+        "item4": {
+            "image": "images/rocket.png",
+    		"title": "Rocket Silence",
+    		"text": "Et harum quidem rerum est et expedita distinctio. Nam libero tempore."
+        }    
+    }
+}}

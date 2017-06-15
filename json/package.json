@@ -1,0 +1,15 @@
+{
+  "name": "pruebita1",
+  "version": "1.0.0",
+  "description": "- Crear y moverse a una rama con tu nombre.\r - Maquetar landing.jpg.\r - Hacer una función en gulp (u otro task manager tambien o de otra manera) para que compile los estilos y cree un archivo styles.css.\r - Traer por ajax el contenido de la landing (test.json), títulos, textos, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.qubit.tv:web/pruebitas.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
