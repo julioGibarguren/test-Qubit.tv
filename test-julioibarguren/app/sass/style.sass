@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700')
+
+$font-stack: 'Titillium Web', sans-serif
+
+$principal-color: white
+$bg-color-1 : #17c2a4
+$transparent-black: rgba(0,0,0,0.25)
+
+$desktop-width: 1024px
+$tablet-width: 768px
+$mobile-big-width: 640px
+
+
+@mixin tablet 
+  @media screen and (max-width: #{$desktop-width - 1px}) 
+    @content
+
+@mixin mobile-big 
+  @media screen and (max-width: #{$tablet-width - 1px}) 
+    @content
+
+@mixin mobile-medium 
+  @media screen and (max-width: #{$mobile-big-width - 1px}) 
+    @content
+
+body
+  font-family: $font-stack
+
+#main
+  background: $bg-color-1
+  padding-top: 120px
+  @include mobile-big 
+    padding-top: 15px
+
+h1
+  font-size: 40px
+  color: $principal-color
+  text-align: center
+  position: relative
+  font-weight: 700
+  &:after
+    height: 4px
+    background: $transparent-black
+    content: ''
+    position: absolute
+    width: 5%
+    bottom: -5px
+    left: 48%
+.subtitle
+  color: $principal-color
+  text-align: center
+  margin: 0 auto
+  font-size: 18px
+  max-width: 605px
+  margin-top: 50px
+  margin-bottom: 81px
+  font-weight: 300
+
+ul
+  padding: 0
+  li
+    list-style: none
+    padding: 0
+    text-align: center
+    width: 260px
+    padding: 0 20px
+    @include tablet
+      width: 25%
+      float: left;
+      padding-bottom: 71px
+    @include mobile-big
+      float: left
+      width: 50%
+    @include mobile-medium
+      float: none
+      width: auto
+    img
+      @include mobile-big
+        height: 30%
+    h2
+      font-size: 24px
+      color: $principal-color
+      font-weight: 600
+      margin-bottom: 21px
+    p
+      font-size: 16px
+      max-width: 193px
+      color: $principal-color
+      margin: 0 auto
+      font-weight: 300
+
+
+  
+
+
+    
